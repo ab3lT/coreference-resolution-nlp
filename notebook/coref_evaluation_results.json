@@ -1,0 +1,779 @@
+{
+  "per_document": [
+    {
+      "doc_id": 1,
+      "text": "Sarah bought a new car. She drove it to work. The vehicle performed excellently.",
+      "gold": [
+        {
+          "entity_id": 1,
+          "mentions": [
+            "Sarah",
+            "She"
+          ]
+        },
+        {
+          "entity_id": 2,
+          "mentions": [
+            "a new car",
+            "it",
+            "The vehicle"
+          ]
+        }
+      ],
+      "system": [
+        {
+          "entity_id": 1,
+          "mentions": [
+            "she",
+            "She"
+          ]
+        },
+        {
+          "entity_id": 2,
+          "mentions": [
+            "it"
+          ]
+        },
+        {
+          "entity_id": 3,
+          "mentions": [
+            "Sarah"
+          ]
+        },
+        {
+          "entity_id": 4,
+          "mentions": [
+            "The"
+          ]
+        },
+        {
+          "entity_id": 5,
+          "mentions": [
+            "a new car"
+          ]
+        }
+      ],
+      "muc": {
+        "precision": 1.0,
+        "recall": 0.5,
+        "f1": 0.6667
+      },
+      "ceaf": {
+        "precision": 0.3333,
+        "recall": 0.4,
+        "f1": 0.3636
+      }
+    },
+    {
+      "doc_id": 2,
+      "text": "John met Mary at the coffee shop. He ordered tea while she got a cappuccino. Both enjoyed their drinks.",
+      "gold": [
+        {
+          "entity_id": 1,
+          "mentions": [
+            "John",
+            "He"
+          ]
+        },
+        {
+          "entity_id": 2,
+          "mentions": [
+            "Mary",
+            "she"
+          ]
+        },
+        {
+          "entity_id": 3,
+          "mentions": [
+            "the coffee shop"
+          ]
+        },
+        {
+          "entity_id": 4,
+          "mentions": [
+            "tea"
+          ]
+        },
+        {
+          "entity_id": 5,
+          "mentions": [
+            "a cappuccino"
+          ]
+        },
+        {
+          "entity_id": 6,
+          "mentions": [
+            "Both",
+            "their drinks"
+          ]
+        }
+      ],
+      "system": [
+        {
+          "entity_id": 1,
+          "mentions": [
+            "he",
+            "He"
+          ]
+        },
+        {
+          "entity_id": 2,
+          "mentions": [
+            "she"
+          ]
+        },
+        {
+          "entity_id": 3,
+          "mentions": [
+            "their"
+          ]
+        },
+        {
+          "entity_id": 4,
+          "mentions": [
+            "both",
+            "Both"
+          ]
+        },
+        {
+          "entity_id": 5,
+          "mentions": [
+            "John"
+          ]
+        },
+        {
+          "entity_id": 6,
+          "mentions": [
+            "Mary"
+          ]
+        },
+        {
+          "entity_id": 7,
+          "mentions": [
+            "the coffee shop"
+          ]
+        },
+        {
+          "entity_id": 8,
+          "mentions": [
+            "a cappuccino"
+          ]
+        }
+      ],
+      "muc": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "ceaf": {
+        "precision": 0.5,
+        "recall": 0.5556,
+        "f1": 0.5263
+      }
+    },
+    {
+      "doc_id": 3,
+      "text": "Apple announced its new iPhone. The device features an advanced camera. Tim Cook presented it at the conference.",
+      "gold": [
+        {
+          "entity_id": 1,
+          "mentions": [
+            "Apple"
+          ]
+        },
+        {
+          "entity_id": 2,
+          "mentions": [
+            "its new iPhone",
+            "The device",
+            "it"
+          ]
+        },
+        {
+          "entity_id": 3,
+          "mentions": [
+            "Tim Cook"
+          ]
+        }
+      ],
+      "system": [
+        {
+          "entity_id": 1,
+          "mentions": [
+            "it"
+          ]
+        },
+        {
+          "entity_id": 2,
+          "mentions": [
+            "its"
+          ]
+        },
+        {
+          "entity_id": 3,
+          "mentions": [
+            "Apple"
+          ]
+        },
+        {
+          "entity_id": 4,
+          "mentions": [
+            "The"
+          ]
+        },
+        {
+          "entity_id": 5,
+          "mentions": [
+            "Tim"
+          ]
+        },
+        {
+          "entity_id": 6,
+          "mentions": [
+            "Cook"
+          ]
+        },
+        {
+          "entity_id": 7,
+          "mentions": [
+            "the conference"
+          ]
+        }
+      ],
+      "muc": {
+        "precision": 0.0,
+        "recall": 0.0,
+        "f1": 0.0
+      },
+      "ceaf": {
+        "precision": 0.2857,
+        "recall": 0.4,
+        "f1": 0.3333
+      }
+    },
+    {
+      "doc_id": 4,
+      "text": "The lawyer called the client after he finished the report. It was crucial for the case.",
+      "gold": [
+        {
+          "entity_id": 1,
+          "mentions": [
+            "The lawyer",
+            "he"
+          ]
+        },
+        {
+          "entity_id": 2,
+          "mentions": [
+            "the client"
+          ]
+        },
+        {
+          "entity_id": 3,
+          "mentions": [
+            "the report",
+            "It"
+          ]
+        }
+      ],
+      "system": [
+        {
+          "entity_id": 1,
+          "mentions": [
+            "he"
+          ]
+        },
+        {
+          "entity_id": 2,
+          "mentions": [
+            "it",
+            "It"
+          ]
+        },
+        {
+          "entity_id": 3,
+          "mentions": [
+            "The"
+          ]
+        },
+        {
+          "entity_id": 4,
+          "mentions": [
+            "the client after he finished the report"
+          ]
+        },
+        {
+          "entity_id": 5,
+          "mentions": [
+            "the case"
+          ]
+        }
+      ],
+      "muc": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "ceaf": {
+        "precision": 0.3333,
+        "recall": 0.4,
+        "f1": 0.3636
+      }
+    },
+    {
+      "doc_id": 5,
+      "text": "Emma and her brother visited the museum. They spent hours looking at paintings. The artworks fascinated them.",
+      "gold": [
+        {
+          "entity_id": 1,
+          "mentions": [
+            "Emma"
+          ]
+        },
+        {
+          "entity_id": 2,
+          "mentions": [
+            "her brother"
+          ]
+        },
+        {
+          "entity_id": 3,
+          "mentions": [
+            "the museum"
+          ]
+        },
+        {
+          "entity_id": 4,
+          "mentions": [
+            "They",
+            "them"
+          ]
+        },
+        {
+          "entity_id": 5,
+          "mentions": [
+            "paintings",
+            "The artworks"
+          ]
+        }
+      ],
+      "system": [
+        {
+          "entity_id": 1,
+          "mentions": [
+            "her"
+          ]
+        },
+        {
+          "entity_id": 2,
+          "mentions": [
+            "they",
+            "They"
+          ]
+        },
+        {
+          "entity_id": 3,
+          "mentions": [
+            "them"
+          ]
+        },
+        {
+          "entity_id": 4,
+          "mentions": [
+            "Emma"
+          ]
+        },
+        {
+          "entity_id": 5,
+          "mentions": [
+            "The"
+          ]
+        },
+        {
+          "entity_id": 6,
+          "mentions": [
+            "the museum"
+          ]
+        }
+      ],
+      "muc": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "ceaf": {
+        "precision": 0.4286,
+        "recall": 0.4286,
+        "f1": 0.4286
+      }
+    },
+    {
+      "doc_id": 6,
+      "text": "The company released a new product. It was designed for mobile users. Customers loved the innovation.",
+      "gold": [
+        {
+          "entity_id": 1,
+          "mentions": [
+            "The company"
+          ]
+        },
+        {
+          "entity_id": 2,
+          "mentions": [
+            "a new product",
+            "It"
+          ]
+        },
+        {
+          "entity_id": 3,
+          "mentions": [
+            "mobile users"
+          ]
+        },
+        {
+          "entity_id": 4,
+          "mentions": [
+            "Customers"
+          ]
+        },
+        {
+          "entity_id": 5,
+          "mentions": [
+            "the innovation"
+          ]
+        }
+      ],
+      "system": [
+        {
+          "entity_id": 1,
+          "mentions": [
+            "it",
+            "It"
+          ]
+        },
+        {
+          "entity_id": 2,
+          "mentions": [
+            "The"
+          ]
+        },
+        {
+          "entity_id": 3,
+          "mentions": [
+            "Customers"
+          ]
+        },
+        {
+          "entity_id": 4,
+          "mentions": [
+            "the innovation"
+          ]
+        },
+        {
+          "entity_id": 5,
+          "mentions": [
+            "a new product"
+          ]
+        }
+      ],
+      "muc": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "ceaf": {
+        "precision": 0.5,
+        "recall": 0.5,
+        "f1": 0.5
+      }
+    },
+    {
+      "doc_id": 7,
+      "text": "Peter gave his book to Michael. He read it quickly. The story impressed him.",
+      "gold": [
+        {
+          "entity_id": 1,
+          "mentions": [
+            "Peter",
+            "He"
+          ]
+        },
+        {
+          "entity_id": 2,
+          "mentions": [
+            "his book",
+            "it",
+            "The story"
+          ]
+        },
+        {
+          "entity_id": 3,
+          "mentions": [
+            "Michael",
+            "him"
+          ]
+        }
+      ],
+      "system": [
+        {
+          "entity_id": 1,
+          "mentions": [
+            "he",
+            "He"
+          ]
+        },
+        {
+          "entity_id": 2,
+          "mentions": [
+            "him"
+          ]
+        },
+        {
+          "entity_id": 3,
+          "mentions": [
+            "his"
+          ]
+        },
+        {
+          "entity_id": 4,
+          "mentions": [
+            "it"
+          ]
+        },
+        {
+          "entity_id": 5,
+          "mentions": [
+            "Peter"
+          ]
+        },
+        {
+          "entity_id": 6,
+          "mentions": [
+            "Michael"
+          ]
+        },
+        {
+          "entity_id": 7,
+          "mentions": [
+            "The"
+          ]
+        }
+      ],
+      "muc": {
+        "precision": 1.0,
+        "recall": 0.5,
+        "f1": 0.6667
+      },
+      "ceaf": {
+        "precision": 0.375,
+        "recall": 0.4286,
+        "f1": 0.4
+      }
+    },
+    {
+      "doc_id": 8,
+      "text": "The hospital admitted a patient yesterday. She required immediate treatment. The doctors examined her carefully.",
+      "gold": [
+        {
+          "entity_id": 1,
+          "mentions": [
+            "The hospital"
+          ]
+        },
+        {
+          "entity_id": 2,
+          "mentions": [
+            "a patient",
+            "She",
+            "her"
+          ]
+        },
+        {
+          "entity_id": 3,
+          "mentions": [
+            "The doctors"
+          ]
+        }
+      ],
+      "system": [
+        {
+          "entity_id": 1,
+          "mentions": [
+            "she",
+            "She"
+          ]
+        },
+        {
+          "entity_id": 2,
+          "mentions": [
+            "her"
+          ]
+        },
+        {
+          "entity_id": 3,
+          "mentions": [
+            "The",
+            "The"
+          ]
+        },
+        {
+          "entity_id": 4,
+          "mentions": [
+            "a patient yesterday"
+          ]
+        }
+      ],
+      "muc": {
+        "precision": 1.0,
+        "recall": 0.5,
+        "f1": 0.6667
+      },
+      "ceaf": {
+        "precision": 0.1667,
+        "recall": 0.2,
+        "f1": 0.1818
+      }
+    },
+    {
+      "doc_id": 9,
+      "text": "Google acquired a startup. Its founders were thrilled. They received stock options and cash.",
+      "gold": [
+        {
+          "entity_id": 1,
+          "mentions": [
+            "Google"
+          ]
+        },
+        {
+          "entity_id": 2,
+          "mentions": [
+            "a startup"
+          ]
+        },
+        {
+          "entity_id": 3,
+          "mentions": [
+            "Its founders",
+            "They"
+          ]
+        },
+        {
+          "entity_id": 4,
+          "mentions": [
+            "stock options and cash"
+          ]
+        }
+      ],
+      "system": [
+        {
+          "entity_id": 1,
+          "mentions": [
+            "its",
+            "Its"
+          ]
+        },
+        {
+          "entity_id": 2,
+          "mentions": [
+            "they",
+            "They"
+          ]
+        },
+        {
+          "entity_id": 3,
+          "mentions": [
+            "Google"
+          ]
+        },
+        {
+          "entity_id": 4,
+          "mentions": [
+            "a startup"
+          ]
+        }
+      ],
+      "muc": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "ceaf": {
+        "precision": 0.5,
+        "recall": 0.6,
+        "f1": 0.5455
+      }
+    },
+    {
+      "doc_id": 10,
+      "text": "The professor explained the theory. Students listened attentively. It was complex but fascinating.",
+      "gold": [
+        {
+          "entity_id": 1,
+          "mentions": [
+            "The professor"
+          ]
+        },
+        {
+          "entity_id": 2,
+          "mentions": [
+            "the theory",
+            "It"
+          ]
+        },
+        {
+          "entity_id": 3,
+          "mentions": [
+            "Students"
+          ]
+        }
+      ],
+      "system": [
+        {
+          "entity_id": 1,
+          "mentions": [
+            "it",
+            "It"
+          ]
+        },
+        {
+          "entity_id": 2,
+          "mentions": [
+            "The"
+          ]
+        },
+        {
+          "entity_id": 3,
+          "mentions": [
+            "Students"
+          ]
+        },
+        {
+          "entity_id": 4,
+          "mentions": [
+            "the theory"
+          ]
+        }
+      ],
+      "muc": {
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0
+      },
+      "ceaf": {
+        "precision": 0.4,
+        "recall": 0.5,
+        "f1": 0.4444
+      }
+    }
+  ],
+  "muc_average": {
+    "precision": 0.9,
+    "recall": 0.75,
+    "f1": 0.8
+  },
+  "ceaf_average": {
+    "precision": 0.3823,
+    "recall": 0.4413,
+    "f1": 0.4087
+  }
+}
